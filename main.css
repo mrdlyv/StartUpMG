@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 2px solid #666600;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #666600;
+}
+
+.nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.primary-btn {
+    padding: 14px 30px;
+    background-color: #666600;
+    color: #ffffff;
+    border: none;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 60px;
+    background-color: #f9f9f9;
+}
+
+.feature-box {
+    width: 30%;
+    border: 1px solid #666600;
+    padding: 30px;
+}
+
+/* CAROUSEL */
+
+.carousel-section {
+    padding: 80px 60px;
+}
+
+.carousel {
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    width: 600%;
+    animation: slide 90s infinite linear;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 340px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.carousel-item:nth-child(1){background-image:url("../assets/business1.jpg")}
+.carousel-item:nth-child(2){background-image:url("../assets/business2.jpg")}
+.carousel-item:nth-child(3){background-image:url("../assets/business3.jpg")}
+.carousel-item:nth-child(4){background-image:url("../assets/business4.jpg")}
+.carousel-item:nth-child(5){background-image:url("../assets/business5.jpg")}
+.carousel-item:nth-child(6){background-image:url("../assets/business6.jpg")}
+
+.carousel-overlay {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    background: rgba(255,255,255,0.95);
+    padding: 12px 26px;
+    border-left: 6px solid #666600;
+    font-weight: bold;
+}
+
+@keyframes slide {
+    0%{transform:translateX(0)}
+    100%{transform:translateX(-700%)}
+}
+
+.footer {
+    text-align: center;
+    padding: 25px;
+    border-top: 2px solid #666600;
+    margin-top: 80px;
+}
