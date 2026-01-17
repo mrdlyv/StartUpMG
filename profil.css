@@ -30,3 +30,58 @@
     color: #666600;
     margin-bottom: 10px;
 }
+
+.yt {
+    background: url(yt.png) center / cover;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.yt:hover {
+    scale: 1.2;
+}
+
+.tel {
+    background: url(tl.png) center / cover;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.tel:hover {
+    scale: 1.2;
+}
+
+.ins {
+    background: url(ins.png) center / cover;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.ins:hover {
+    scale: 1.2;
+}
+
+.sosial {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}
+
+.wp {
+    height: 34px;
+    width: 34px;
+    background: url(wp.png) center/cover;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.wp:hover {
+    scale: 1.2;
+}

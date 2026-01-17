@@ -72,7 +72,7 @@ body {
     padding: 80px 60px;
 }
 
-img{
+img {
     width: 50px;
     height: 50px;
 }
@@ -96,26 +96,48 @@ img{
     position: relative;
 }
 
-.carousel-item:nth-child(1){background-image:url("../assets/business1.jpg")}
-.carousel-item:nth-child(2){background-image:url("../assets/business2.jpg")}
-.carousel-item:nth-child(3){background-image:url("../assets/business3.jpg")}
-.carousel-item:nth-child(4){background-image:url("../assets/business4.jpg")}
-.carousel-item:nth-child(5){background-image:url("../assets/business5.jpg")}
-.carousel-item:nth-child(6){background-image:url("../assets/business6.jpg")}
+.carousel-item:nth-child(1) {
+    background-image: url("../assets/business1.jpg")
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url("../assets/business2.jpg")
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url("../assets/business3.jpg")
+}
+
+.carousel-item:nth-child(4) {
+    background-image: url("../assets/business4.jpg")
+}
+
+.carousel-item:nth-child(5) {
+    background-image: url("../assets/business5.jpg")
+}
+
+.carousel-item:nth-child(6) {
+    background-image: url("../assets/business6.jpg")
+}
 
 .carousel-overlay {
     position: absolute;
     bottom: 25px;
     left: 25px;
-    background: rgba(255,255,255,0.95);
+    background: rgba(255, 255, 255, 0.95);
     padding: 12px 26px;
     border-left: 6px solid #666600;
     font-weight: bold;
 }
 
 @keyframes slide {
-    0%{transform:translateX(0)}
-    100%{transform:translateX(-700%)}
+    0% {
+        transform: translateX(0)
+    }
+
+    100% {
+        transform: translateX(-700%)
+    }
 }
 
 .footer {
@@ -125,3 +147,57 @@ img{
     margin-top: 80px;
 }
 
+.yt {
+    background: url(yt.png) center / cover;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.yt:hover {
+    scale: 1.2;
+}
+
+.tel {
+    background: url(tl.png) center / cover;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.tel:hover {
+    scale: 1.2;
+}
+
+.ins {
+    background: url(ins.png) center / cover;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.ins:hover {
+    scale: 1.2;
+}
+
+.sosial {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}
+
+.wp {
+    height: 34px;
+    width: 34px;
+    background: url(wp.png) center/cover;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.wp:hover {
+    scale: 1.2;
+}
